@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type</fullName>
+    <active>true</active>
+    <label>Contact Type</label>
+    <picklistValues>
+        <picklist>Domain_Experties__c</picklist>
+        <values>
+            <fullName>Bio Instrumentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bio Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSP processor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Image Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microprocessor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nano Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLSI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Domain__c</picklist>
+        <values>
+            <fullName>Automation Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Science %26 Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defense Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering %26 Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marine Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robotics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Science</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Failure_Score__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

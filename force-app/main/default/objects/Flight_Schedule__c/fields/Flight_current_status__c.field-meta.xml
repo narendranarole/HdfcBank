@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flight_current_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Flight current status</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Flight schedule</fullName>
+                <default>true</default>
+                <label>New Flight schedule</label>
+            </value>
+            <value>
+                <fullName>Flight Ready to Depart</fullName>
+                <default>false</default>
+                <label>Flight Ready to Depart</label>
+            </value>
+            <value>
+                <fullName>Flight ready to Arrive</fullName>
+                <default>false</default>
+                <label>Flight ready to Arrive</label>
+            </value>
+            <value>
+                <fullName>Flight Cancelled</fullName>
+                <default>false</default>
+                <label>Flight Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

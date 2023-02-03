@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Name_of_First_Pilot__c</columns>
+    <columns>Name_of_Second_Pilot__c</columns>
+    <columns>Source_Name__c</columns>
+    <columns>Destination_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>Arrival_Date_Time__c</columns>
+    <columns>Departure_Date_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

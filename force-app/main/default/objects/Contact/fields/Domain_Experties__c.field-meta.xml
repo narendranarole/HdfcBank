@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domain_Experties__c</fullName>
+    <externalId>false</externalId>
+    <label>Domain Experties</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Domain__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Image Processing</fullName>
+                <default>false</default>
+                <label>Image Processing</label>
+            </value>
+            <value>
+                <fullName>VLSI</fullName>
+                <default>false</default>
+                <label>VLSI</label>
+            </value>
+            <value>
+                <fullName>Nano Technology</fullName>
+                <default>false</default>
+                <label>Nano Technology</label>
+            </value>
+            <value>
+                <fullName>DSP processor</fullName>
+                <default>false</default>
+                <label>DSP processor</label>
+            </value>
+            <value>
+                <fullName>Microprocessor</fullName>
+                <default>false</default>
+                <label>Microprocessor</label>
+            </value>
+            <value>
+                <fullName>Bio Medical</fullName>
+                <default>false</default>
+                <label>Bio Medical</label>
+            </value>
+            <value>
+                <fullName>Bio Instrumentation</fullName>
+                <default>false</default>
+                <label>Bio Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Design Tech</fullName>
+                <default>false</default>
+                <label>Design Tech</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Engineering &amp; Technology</controllingFieldValue>
+            <valueName>VLSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineering &amp; Technology</controllingFieldValue>
+            <controllingFieldValue>Computer Science</controllingFieldValue>
+            <controllingFieldValue>Automation Technology</controllingFieldValue>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <controllingFieldValue>Defense Technology</controllingFieldValue>
+            <controllingFieldValue>Marine Technology</controllingFieldValue>
+            <valueName>DSP processor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineering &amp; Technology</controllingFieldValue>
+            <controllingFieldValue>Computer Science</controllingFieldValue>
+            <controllingFieldValue>Automation Technology</controllingFieldValue>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <controllingFieldValue>Defense Technology</controllingFieldValue>
+            <controllingFieldValue>Marine Technology</controllingFieldValue>
+            <valueName>Microprocessor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Science</controllingFieldValue>
+            <valueName>Nano Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Science</controllingFieldValue>
+            <controllingFieldValue>Data Science &amp; Analysis</controllingFieldValue>
+            <controllingFieldValue>Social Science</controllingFieldValue>
+            <valueName>Bio Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Science</controllingFieldValue>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <valueName>Bio Instrumentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Computer Science</controllingFieldValue>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <controllingFieldValue>Data Science &amp; Analysis</controllingFieldValue>
+            <controllingFieldValue>Defense Technology</controllingFieldValue>
+            <valueName>Image Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation Technology</controllingFieldValue>
+            <controllingFieldValue>Robotics</controllingFieldValue>
+            <controllingFieldValue>Social Science</controllingFieldValue>
+            <controllingFieldValue>Defense Technology</controllingFieldValue>
+            <controllingFieldValue>Marine Technology</controllingFieldValue>
+            <valueName>Design Tech</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

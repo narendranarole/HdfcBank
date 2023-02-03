@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Dept_time_greater_than_Arival</fullName>
+    <active>true</active>
+    <errorConditionFormula>Departure_Date_Time__c  &gt;  Arrival_Date_Time__c</errorConditionFormula>
+    <errorMessage>Departure time must be less than Arrival Time</errorMessage>
+</ValidationRule>

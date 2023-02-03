@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_pilot_age_less_than_18</fullName>
+    <active>true</active>
+    <errorConditionFormula>AGE__c &lt; 18</errorConditionFormula>
+    <errorMessage>Age must be greater than 18</errorMessage>
+</ValidationRule>

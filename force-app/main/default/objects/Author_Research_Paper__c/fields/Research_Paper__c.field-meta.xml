@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Research_Paper__c</fullName>
+    <description>In  master detail WIth Research paper</description>
+    <externalId>false</externalId>
+    <label>Research Paper</label>
+    <referenceTo>Research_Paper__c</referenceTo>
+    <relationshipLabel>Author Research Papers</relationshipLabel>
+    <relationshipName>Author_Research_Papers</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

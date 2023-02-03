@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City__c</fullName>
+    <externalId>false</externalId>
+    <label>City</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>City</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>England State</controllingFieldValue>
+            <valueName>Landon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France State</controllingFieldValue>
+            <valueName>paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia State</controllingFieldValue>
+            <controllingFieldValue>USA State</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Nagpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Mumbai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Pradesh</controllingFieldValue>
+            <valueName>Bhopal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andhra Pradesh</controllingFieldValue>
+            <valueName>Bangalore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pakistan State</controllingFieldValue>
+            <valueName>Lahor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pakistan State</controllingFieldValue>
+            <valueName>Karachi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangladesh State</controllingFieldValue>
+            <valueName>Dhaka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Srilanka State</controllingFieldValue>
+            <valueName>Colombo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA State</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
